@@ -15,3 +15,5 @@ RUN set -x \
     && chmod +x "${TINI_HOME}/tini" \
     && "${TINI_HOME}/tini" -h
 
+ENTRYPOINT ["/usr/local/sbin/tini", "-g", "-vv", "--"]
+
