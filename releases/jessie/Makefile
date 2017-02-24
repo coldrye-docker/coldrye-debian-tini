@@ -4,7 +4,7 @@ provider = coldrye
 os = debian
 release = jessie
 feature = tini
-feature_version = 0-9-0
+feature_version = 0-14-0
 tag := $(shell date +"%Y%m%d%H%M%S")
 image = $(os)-$(feature)
 

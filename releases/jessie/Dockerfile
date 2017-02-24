@@ -2,7 +2,7 @@ FROM coldrye/debian:jessie-latest
 
 MAINTAINER Carsten Klein <trancesilken@gmail.com>
 
-ARG TINI_VERSION="v0.9.0"
+ARG TINI_VERSION="v0.14.0"
 
 RUN set -x \
     && export TINI_HOME="/usr/local/sbin" \
